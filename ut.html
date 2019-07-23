@@ -1,0 +1,1692 @@
+<!doctype html>
+<html lang="it" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>User Testing</title>
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Omar Polo, Daniele Di Salvo, Daniele Olivo">
+		<meta name="title" content="Progetto di siti e portali Web">
+		<meta name="description" content="Relazione finale progettazione di siti e portali web">
+		<meta name="copyright" content="template.html">
+		<meta name="robots" content="index,follow">
+		<meta name="keywords" content="web site, ui, ux, webdesign, italy, designer, udine, graphic design, website design, website builder, web developer, user testing, accessibility, WCAG">
+		
+
+		
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i&display=swap" rel="stylesheet"> 
+
+		
+		<script src="https://kit.fontawesome.com/25485af4cf.js"></script>
+
+		
+		<link rel="icon" href="favicon.ico">
+
+		
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/atelier-cave-light.css" type="text/css">
+		<link rel="stylesheet" href="css/print.css" media="print" type="text/css">
+	</head>
+
+	<body>
+		<a href="#content" class="skip-to-content" accesskey="0">Salta al contenuto principale  (premi Invio)</a>
+
+		
+		<header class="container" role="group">
+			<nav class="navigation" aria-label="main navigation" role="doc-pagelist">
+				<a href="index.html" class="color-square" title="Università degli Studi di Udine">
+					<span class="sr-only">Università degli Studi di Udine</span>
+					<span aria-hidden="true" class="square-1"></span>
+					<span aria-hidden="true" class="square-2"></span>
+					<span aria-hidden="true" class="square-3"></span>
+				</a>
+			
+				
+				<ul class="menu" role="group">
+					<li class="menu-Home">
+						<a href="index.html" accesskey="h">[H] Home</a>
+					</li>
+					<li class="menu-WCAG">
+						<a href="wcag.html" accesskey="w"><abbr title="Web Content Accessibility Guidelines">[W] WCAG</abbr></a>
+					</li>
+					<li class="menu-Test">
+						<a href="ut.html" accesskey="u">[U] User testing</a>
+					</li>
+					
+				</ul>
+				
+			</nav>
+			
+		</header>
+		
+
+		
+		<main id="content" aria-label="main content">
+			
+				
+	<div class="ut container">
+		<h1>User Testing</h1>
+
+		<h2 id="introduzione">Introduzione</h2>
+		<p>
+			Lo user testing ha l'obiettivo di individuare difetti d'usabilità attraverso l'osservazione dell'interazione tra utente e sistema. Si compone delle seguenti fasi:
+		</p>
+
+		<dl>
+			<dt>Pianificazione</dt>
+			<dd>Si decidono i compiti da far eseguire agli utenti e si scelgono i profili utente più adatti;</dd>
+
+			<dt>Reclutamento</dt>
+			<dd>Si contattano gli utenti;</dd>
+
+			<dt>Briefing</dt>
+			<dd>Gli utenti vengono introdotti al test. Gli viene chiesto di compilare un questionario di screening per completare il loro profilo, il tutto sotto l'autorizzazione dell'utente;</dd>
+
+			<dt>Esecuzione</dt>
+			<dd>Viene esposto all'utente il compito e viene invitato a pensare ad alta voce. Il compito degli esaminatori è quello di controllare come l'utente interagisce con il sito. Se l'utente è in difficoltà, lo sperimentatore lo stimola, senza fornire suggerimenti e senza comportarsi in modo da invalidare il test;</dd>
+
+			<dt>Debriefing</dt>
+			<dd>Vengono rielaborate le annotazioni, viene discusso con l'utente quello che è successo durante l'esecuzione, ponendo particolare attenzione ai problemi emersi.</dd>
+		</dl>
+
+		<h2 id="perimetro-dell-indagine">Perimetro dell'indagine</h2>
+		<p>Dopo aver esaminato il sito, sono stati formulati <strong>6 casi d'uso</strong>:</p>
+		<ol>
+			
+				<li>
+					<p>Stai progettando un viaggio (e.g. Udine - Verona) e vuoi sapere quanto
+ti costerà il pedaggio.
+</p>
+					<dl>
+						<dt>Tempo massimo</dt>
+						<dd>2 minuti
+</dd>
+
+						<dt>Percorso previsto</dt>
+						<dd class="path"><ul>
+<li>home page</li>
+<li>click sul box &ldquo;calcolo pedaggi&rdquo;</li>
+<li>inserire le informazioni e premere il tasto &ldquo;calcola&rdquo;</li>
+</ul>
+</dd>
+					</dl>
+				</li>
+			
+				<li>
+					<p>Vuoi verificare il meteo per una certa città (e.g. Venezia) per domenica
+prossima.
+</p>
+					<dl>
+						<dt>Tempo massimo</dt>
+						<dd>3 minuti
+</dd>
+
+						<dt>Percorso previsto</dt>
+						<dd class="path"><ul>
+<li>home page</li>
+<li>servizi</li>
+<li>previsioni meteo</li>
+</ul>
+</dd>
+					</dl>
+				</li>
+			
+				<li>
+					<p>Vuoi verificare il traffico su una autostrada per una specifica data.
+</p>
+					<dl>
+						<dt>Tempo massimo</dt>
+						<dd>3 minuti
+</dd>
+
+						<dt>Percorso previsto</dt>
+						<dd class="path"><ul>
+<li>home page</li>
+<li>uso del widget per il traffico</li>
+</ul>
+</dd>
+					</dl>
+				</li>
+			
+				<li>
+					<p>Ricerca di una specifica telecamera
+</p>
+					<dl>
+						<dt>Tempo massimo</dt>
+						<dd>1 minuto
+</dd>
+
+						<dt>Percorso previsto</dt>
+						<dd class="path"><ul>
+<li>home page</li>
+<li>telecamere</li>
+<li>uso della mappa</li>
+</ul>
+</dd>
+					</dl>
+				</li>
+			
+				<li>
+					<p>Viene richiesto all&#39;utente di trovare la stazione di benzina più vicina
+ad una città (e.g. Udine venendo da Venezia.)
+</p>
+					<dl>
+						<dt>Tempo massimo</dt>
+						<dd>2 minuti
+</dd>
+
+						<dt>Percorso previsto</dt>
+						<dd class="path"><ul>
+<li>home page</li>
+<li>infrastrutture</li>
+<li>uso della mappa</li>
+</ul>
+</dd>
+					</dl>
+				</li>
+			
+				<li>
+					<p>Viene richiesto all&#39;utente di trovare la stazione di servizio con benzina
+con costo minore su una tratta di un&#39;autostrada.
+</p>
+					<dl>
+						<dt>Tempo massimo</dt>
+						<dd>2 minuti
+</dd>
+
+						<dt>Percorso previsto</dt>
+						<dd class="path"><ul>
+<li>home page</li>
+<li>infrastrutture</li>
+<li>ricerca manuale nella lista</li>
+</ul>
+</dd>
+					</dl>
+				</li>
+			
+		</ol>
+
+		<h2 id="sommario-dei-risultati">Sommario dei risultati</h2>
+		
+		<p>Durante lo svolgimento dei test alcune problematiche sono state evidenziate da più utenti. Il sito si presenta, a detta di alcuni utenti, come <em>confusionario</em>, soprattutto nella sua prima pagina: da quanto osservato questo mette a disagio gli utenti e ne compromette l'esperienza.</p>
+		<p>Alcune sezioni del sito sono risultate particolarmente scomode agli utenti: non è possibile non citare un problema che tutti gli utenti hanno sottolineato, ovvero la mappa. Durante lo scrolling verticale del sito, se il cursore finisce sopra la mappa è possibile che si attivi la funzione di zoom della mappa, andando a spiazzare l'utente.</p>
+
+		<h2 id="metodologia">Metodologia</h2>
+		<h3>Briefing</h3>
+
+		<p>Prima del testing vengono illustrati al partecipante lo scopo dell'user testing e le modalità di svolgimento. Dopo essersi assicurati che l'utente abbia compreso, gli viene gentilmente chiesto di compilare il seguente questionario:</p>
+
+		<p>Domande del questionario</p>
+		<ul>
+			<li><p>Età</p></li>
+			<li><p>Sesso</p></li>
+			<li><p>Professione</p></li>
+			<li><p>Autovalutazione delle competenze digitali: 1 (scarso) fino a 5 (ottimo)</p></li>
+			<li><p>Frequenza di utilizzo del web</p></li>
+			<li><p>Hai mai usato un sito di informazioni sui viaggi?</p></li>
+			<li><p>Hai mai usato il sito "infoviaggiando.it"?</p></li>
+		</ul>
+
+		<h3>Profili utente</h3>
+
+		<div class="user-survey-results">
+			
+				<section class="user-survey-result">
+
+					<h4>Utente 1</h4>
+
+					<dl>
+						<dt>Età</dt>
+						<dd>25 anni</dd>
+
+						<dt>Sesso</dt>
+						<dd>maschio</dd>
+
+						<dt>Professione</dt>
+						<dd>studente</dd>
+
+						<dt>Competenze digitali</dt>
+						<dd>4/5</dd>
+
+						<dt>Frequenza di utilizzo del web</dt>
+						<dd>12 ore al giorno</dd>
+
+						<dt>Hai mai usato un sito di informazioni sui viaggi?</dt>
+						<dd>Sì</dd>
+
+						<dt>Hai mai usato il sito infoviaggiando.it?</dt>
+						<dd>No</dd>
+					</dl>
+				</section>
+			
+				<section class="user-survey-result">
+
+					<h4>Utente 2</h4>
+
+					<dl>
+						<dt>Età</dt>
+						<dd>22 anni</dd>
+
+						<dt>Sesso</dt>
+						<dd>maschio</dd>
+
+						<dt>Professione</dt>
+						<dd>studente</dd>
+
+						<dt>Competenze digitali</dt>
+						<dd>4/5</dd>
+
+						<dt>Frequenza di utilizzo del web</dt>
+						<dd>15-16 ore al giorno</dd>
+
+						<dt>Hai mai usato un sito di informazioni sui viaggi?</dt>
+						<dd>Sì</dd>
+
+						<dt>Hai mai usato il sito infoviaggiando.it?</dt>
+						<dd>No</dd>
+					</dl>
+				</section>
+			
+				<section class="user-survey-result">
+
+					<h4>Utente 3</h4>
+
+					<dl>
+						<dt>Età</dt>
+						<dd>18 anni</dd>
+
+						<dt>Sesso</dt>
+						<dd>femmina</dd>
+
+						<dt>Professione</dt>
+						<dd>studente</dd>
+
+						<dt>Competenze digitali</dt>
+						<dd>3/5</dd>
+
+						<dt>Frequenza di utilizzo del web</dt>
+						<dd>5-6 ore al giorno</dd>
+
+						<dt>Hai mai usato un sito di informazioni sui viaggi?</dt>
+						<dd>Sì</dd>
+
+						<dt>Hai mai usato il sito infoviaggiando.it?</dt>
+						<dd>No</dd>
+					</dl>
+				</section>
+			
+				<section class="user-survey-result">
+
+					<h4>Utente 4</h4>
+
+					<dl>
+						<dt>Età</dt>
+						<dd>51 anni</dd>
+
+						<dt>Sesso</dt>
+						<dd>femmina</dd>
+
+						<dt>Professione</dt>
+						<dd>impiegata</dd>
+
+						<dt>Competenze digitali</dt>
+						<dd>1/5</dd>
+
+						<dt>Frequenza di utilizzo del web</dt>
+						<dd>0-1 ore al giorno</dd>
+
+						<dt>Hai mai usato un sito di informazioni sui viaggi?</dt>
+						<dd>No</dd>
+
+						<dt>Hai mai usato il sito infoviaggiando.it?</dt>
+						<dd>No</dd>
+					</dl>
+				</section>
+			
+		</div>
+
+		<h3>Situazione operativa</h3>
+		<p>I primi tre test sono stati effettuati nel giardino dei rizzi, in un tavolo all'ombra di un albero. Dato anche il periodo dell'anno, c'era poca gente nei dintorni e i test si sono svolti in tranquillità. L'ultimo test, per motivi logistici e di tempo, si è tenuto a casa di uno di noi, ma comunque in condizioni di tranquillità.</p>
+
+		<p>I partecipanti sono stati invitati a pensare ad alta voce, per permetterci di comprendere i loro ragionamenti e le motivazioni dietro alle azioni che compivano. Inutile dire che i pensieri espressi dagli utenti sono stati prezioni nella compilazione di questo documento. In alcune occasioni si è reso necessario invitare l'utente a provare a proseguire.</p>
+
+		<h3>Indici di valutazione</h3>
+		<p>Abbiamo valutato il <em>risultato degli utenti</em> e la <em>gravità dei problemi</em> con le seguenti scale.</p>
+
+		<h4>Indice di successo</h4>
+		<dl>
+			<dt>Alto</dt>
+			<dd>L'utente completa il task entro i tempi previsti. La sua navigazione è chiara e non ha difficoltà ad eseguire il task.</dd>
+
+			<dt>Medio</dt>
+			<dd>L'utente completa il task entro i tempi previsti. La sua navigazione è abbastanza pulita, e non sembra eccessivamente in difficoltà.</dd>
+
+			<dt>Basso</dt>
+			<dd>L'utente supera il tempo massimo oppure completa il task con poco tempo rimasto. La sua navigazione è confusa, cambia pagina spesso ed è evidente abbia difficoltà a fare quanto richiesto</dd>
+		</dl>
+
+		<h4>Indice di gravità del problema</h4>
+
+		<p>Definiamo due metriche principali riguandante i problemi di usabilità: impatto e frequenza. L'impatto si può misurare come</p>
+		<ol>
+			<li><p>il problema riscontrato dall'utente è facilmente superabile</p></li>
+			<li><p>il problema richiede un notevole sforzo per essere aggirato</p></li>
+			<li><p>il problema blocca la possibilità di completare il compito</p></li>
+		</ol>
+		<p>Mentre per la frequenza si ha</p>
+		<ol>
+			<li><p>il problema si verifica poche volte</p></li>
+			<li><p>il problema si verifica ogni volta durante lo svolgimento del compito</p></li>
+			<li><p>il problema si verifica molte volte durante lo svolgimento del compito</p></li>
+		</ol>
+
+		<p>In base all'impatto e alla frequenza definiamo la <em>gravità di un problema</em> come:</p>
+
+		<table class="gravity">
+			<caption>Gravità del problema in base all'impatto e alla frequenza.</caption>
+			<thead>
+				<tr>
+					<th>gravità</th>
+					<th>impatto</th>
+					<th>frequenza</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="minor"><td>minore</td><td>1</td><td>1</td></tr>
+				<tr class="minor"><td>minore</td><td>1</td><td>2</td></tr>
+				<tr class="important"><td>importante</td><td>1</td><td>3</td></tr>
+				<tr class="important"><td>importante</td><td>2</td><td>1</td></tr>
+				<tr class="important"><td>importante</td><td>2</td><td>2</td></tr>
+				<tr class="critic"><td>critico</td><td>2</td><td>3</td></tr>
+				<tr class="critic"><td>critico</td><td>3</td><td>1</td></tr>
+				<tr class="critic"><td>critico</td><td>3</td><td>2</td></tr>
+				<tr class="critic"><td>critico</td><td>3</td><td>3</td></tr>
+			</tbody>
+		</table>
+
+		<h2 id="risultati">Risultati</h2>
+
+		
+			<section class="user-task">
+				<h3>Caso d'uso 1</h3>
+
+				<p>Stai progettando un viaggio (e.g. Udine - Verona) e vuoi sapere quanto
+ti costerà il pedaggio.
+</p>
+
+				<p>Tempo previsto: 2 minuti
+</p>
+
+				<div class="path">
+					<p>Percorso previsto:</p>
+					<ul>
+<li>home page</li>
+<li>click sul box &ldquo;calcolo pedaggi&rdquo;</li>
+<li>inserire le informazioni e premere il tasto &ldquo;calcola&rdquo;</li>
+</ul>
+
+				</div>
+
+				<div class="user-task-results-wrapper">
+					
+						<section class="user-task-result">
+							<h4>Utente 1</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>non passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>2 minuti (interrotto per tempo scaduto)
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>sicurezza</li>
+<li>servizi</li>
+<li>infrastrutture</li>
+<li>telecamere</li>
+<li>notizie</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Trova il sito &ldquo;confusionario e poco chiaro&rdquo;.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 2</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>30 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>home page pulsante calcolo pedaggi</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=minore>
+													<span>minore</span>
+													Non è immediato trovare il pulsante per il calcolo del pedaggio.
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>nessuno</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 3</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>42 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-alto
+">alto
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>home page</li>
+<li>servizi (nella nav)</li>
+<li>calcolo pedaggi</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Trova che la home page sia troppo confusionaria: &ldquo;ho avuto paura di perdermi&rdquo; afferma. In ogni caso, risolve velocemente il task.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 4</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>1 minuto 3 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>calcolo pedaggio</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=n/a>
+													<span>n/a</span>
+													Home page troppo confusionaria
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Trova che la home page contenga &ldquo;troppe cose e non sono ben mostrate&rdquo;.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+				</div>
+			</section>
+		
+			<section class="user-task">
+				<h3>Caso d'uso 2</h3>
+
+				<p>Vuoi verificare il meteo per una certa città (e.g. Venezia) per domenica
+prossima.
+</p>
+
+				<p>Tempo previsto: 3 minuti
+</p>
+
+				<div class="path">
+					<p>Percorso previsto:</p>
+					<ul>
+<li>home page</li>
+<li>servizi</li>
+<li>previsioni meteo</li>
+</ul>
+
+				</div>
+
+				<div class="user-task-results-wrapper">
+					
+						<section class="user-task-result">
+							<h4>Utente 1</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>45 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-alto
+">alto
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>servizi</li>
+<li>previsioni meteo</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Suggerisce la creazione di una pagina apposita per il meteo perchè non si aspettava che si trovasse nella pagina dei servizi.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 2</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>1 minuto e 45 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>infotraffico</li>
+<li>notizie</li>
+<li>infotraffico</li>
+<li>calcolo pedaggio</li>
+<li>previsioni del meteo</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Si lamenta (di nuovo) di quanto il sito sia &ldquo;incasinato&rdquo;.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 3</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>34 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-alto
+">alto
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>mappa del sito</li>
+<li>previsioni meteo</li>
+<li>venezia</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 4</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>2 minuto e 18 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>notizie</li>
+<li>servizi</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=importante>
+													<span>importante</span>
+													fatica nell&#39;individuare la pagina
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Suggerisce l&rsquo;aggiunta di un link a sè stante nel menù per la pagina meteo. Ha avuto difficoltà a individuare la pagina in cui sono presenti le previsioni meteo.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+				</div>
+			</section>
+		
+			<section class="user-task">
+				<h3>Caso d'uso 3</h3>
+
+				<p>Vuoi verificare il traffico su una autostrada per una specifica data.
+</p>
+
+				<p>Tempo previsto: 3 minuti
+</p>
+
+				<div class="path">
+					<p>Percorso previsto:</p>
+					<ul>
+<li>home page</li>
+<li>uso del widget per il traffico</li>
+</ul>
+
+				</div>
+
+				<div class="user-task-results-wrapper">
+					
+						<section class="user-task-result">
+							<h4>Utente 1</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>1 minuto e 42 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-medio
+">medio
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>servizi</li>
+<li>notizie</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=minore>
+													<span>minore</span>
+													effettuare lo scrolling nella home page può attivare lo zoom della mappa se il cursore si posiziona sopra per errore
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Suggerisce la creazione di una pagina dove venga richiesto all&rsquo;utente il percorso che desidera effettuare (da un punto A a un punto B) e dove il traffico mostrato riguardi solo quello specifico tratto di autostrada.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 2</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>1 minuto e 50 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>notizie</li>
+<li>pedaggio</li>
+<li>notizie</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=importante>
+													<span>importante</span>
+													Difficile capite dove sono si trova un casello perchè il traffico è diviso per tratte complessive autostradali (AUTOVIE VENETE, AUTOSTRADA BS-PD, CAV)
+												</li>
+											
+												<li class=minore>
+													<span>minore</span>
+													Lo zoom sulla mappa crea problemi con lo scrolling del sito
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 3</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>non passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>3 minuti (fermato per superamento limite di tempo)
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>home page</li>
+<li>click su &ldquo;Notizie ai viaggiatori e previsioni traffico&rdquo;</li>
+<li>click sulla data richiesta</li>
+<li>non è sicura del nome dell&rsquo;autostrada/del fatto che riguardi la tratta che le interessi</li>
+<li>mappa del sito</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=importante>
+													<span>importante</span>
+													Lo zoom della mappa durante lo scrolling se il cursore ci si posiziona sopra.
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Dopo due minuti ha avuto bisogno di un piccolo incoraggiamento per
+continuare. Pensa che una soluzione, simile a quanto fatto su altri siti,
+di chiedere all&rsquo;utente gli estremi di un percorso e quindi fornire le
+informazioni solo riguardante quella tratta.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 4</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>1 minuto e 26 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>servizi</li>
+<li>notizie</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=importante>
+													<span>importante</span>
+													scegliere l&#39;autostrada richiesta
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Afferma che sarebbe meglio, invece di divere le autostrade in solo 3 blocchi, dividerle in tratte tra caselli.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+				</div>
+			</section>
+		
+			<section class="user-task">
+				<h3>Caso d'uso 4</h3>
+
+				<p>Ricerca di una specifica telecamera
+</p>
+
+				<p>Tempo previsto: 1 minuto
+</p>
+
+				<div class="path">
+					<p>Percorso previsto:</p>
+					<ul>
+<li>home page</li>
+<li>telecamere</li>
+<li>uso della mappa</li>
+</ul>
+
+				</div>
+
+				<div class="user-task-results-wrapper">
+					
+						<section class="user-task-result">
+							<h4>Utente 1</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>10 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-medio
+">medio
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>telecamere</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 2</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>30 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-medio
+">medio
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>telecamere</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 3</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>non passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>1 minuto (supero limite tempo)
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>click su &ldquo;Vedi tutte le telecamere&rdquo; (sotto la mappa)</li>
+<li>mette la mappa fullscreen</li>
+<li>identifica il punto richiesto</li>
+<li>torna nella home page</li>
+<li>click su &ldquo;Telecamere&rdquo; nella navbar</li>
+<li>usa il widget con l&rsquo;anteprima delle telecamere sotto la mappa cercando quella che le interessa</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=minore>
+													<span>minore</span>
+													lo scrolling che triggera lo zoom della mappa.
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Non ha riconosciuto le icone sulla mappa come cliccabili, e quindi anche
+se in relativamente poco tempo (~35 secondi) ha raggiunto la pagina
+corretta, è poi tornata nella home per cercare un altro percorso.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 4</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>47 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>telecamere</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=importante>
+													<span>importante</span>
+													Lo zoom della mappa
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+				</div>
+			</section>
+		
+			<section class="user-task">
+				<h3>Caso d'uso 5</h3>
+
+				<p>Viene richiesto all&#39;utente di trovare la stazione di benzina più vicina
+ad una città (e.g. Udine venendo da Venezia.)
+</p>
+
+				<p>Tempo previsto: 2 minuti
+</p>
+
+				<div class="path">
+					<p>Percorso previsto:</p>
+					<ul>
+<li>home page</li>
+<li>infrastrutture</li>
+<li>uso della mappa</li>
+</ul>
+
+				</div>
+
+				<div class="user-task-results-wrapper">
+					
+						<section class="user-task-result">
+							<h4>Utente 1</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>30 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-medio
+">medio
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>infrastrutture</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 2</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>non passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>2 minuti e 15 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>infrastrutture</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=importante>
+													<span>importante</span>
+													alcuni filtri non funzionano
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Alcuni filtri non funzionano, ciò gli ha fatto perdere diverso tempo e a superare il limite per questo task.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 3</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>40 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-medio
+">medio
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>infrastrutture</li>
+<li>consulta velocemente la lista ma poi preferisce usare la mappa</li>
+<li>trova la stazione richiesta sulla mappa</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 4</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>non passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>2 minuti e 4 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>servizi</li>
+<li>infrastrutture</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=importante>
+													<span>importante</span>
+													Lo zoom della mappa
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+				</div>
+			</section>
+		
+			<section class="user-task">
+				<h3>Caso d'uso 6</h3>
+
+				<p>Viene richiesto all&#39;utente di trovare la stazione di servizio con benzina
+con costo minore su una tratta di un&#39;autostrada.
+</p>
+
+				<p>Tempo previsto: 2 minuti
+</p>
+
+				<div class="path">
+					<p>Percorso previsto:</p>
+					<ul>
+<li>home page</li>
+<li>infrastrutture</li>
+<li>ricerca manuale nella lista</li>
+</ul>
+
+				</div>
+
+				<div class="user-task-results-wrapper">
+					
+						<section class="user-task-result">
+							<h4>Utente 1</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>1 minuto e 15 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>infrastrutture</li>
+<li>sicurezza</li>
+<li>notizie</li>
+<li>infrastrutture</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Suggerisce, come ha già fatto, la creazione di una pagina dove l&rsquo;utente possa inserire gli estremi di un percorso, e dove il sistema fornisca le informazioni pertinenti, come il costo previsto e, appunto, le stazioni di servizio ordinate per costo.</p>
+
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 2</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>non passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>3 minuti e 4 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>servizi</li>
+<li>cerca nel sito</li>
+<li>telecamere</li>
+<li>notizie</li>
+<li>infrastrutture</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=importante>
+													<span>importante</span>
+													difficoltà nel trovare le informazioni
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 3</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>non passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>2 minuti e 20 secondi.
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>home</li>
+<li>infrastrutture</li>
+<li>uso della mappa</li>
+<li>click ripetuti sulla scritta &ldquo;A4&rdquo; sperando che sia interagibile</li>
+<li>cerca A4 nella barra in alto</li>
+<li>torna nella home</li>
+<li>nota il widget &ldquo;Dove il pieno costa meno&rdquo; ma nota che non è interagibile</li>
+<li>infrastrutture</li>
+<li>nota la lista delle stazione di servizio sotto la mappa e trova quello richiesto.</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<ul class="problem-list">
+											
+												<li class=importante>
+													<span>importante</span>
+													zoom della mappa durante lo scrolling.
+												</li>
+											
+										</ul>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+						<section class="user-task-result">
+							<h4>Utente 4</h4>
+
+							<dl>
+								<dt>Esito</dt>
+								<dd>passato
+</dd>
+
+								<dt>Tempo impiegato</dt>
+								<dd>1 minuti e 51 secondi
+</dd>
+
+								<dt>Livello di successo</dt>
+								<dd class="level-basso
+">basso
+</dd>
+
+								<dt>Percorso dell'utente</dt>
+								<dd><ul>
+<li>infrastrutture</li>
+</ul>
+</dd>
+
+								<dt>Problemi</dt>
+								<dd>
+									
+										<p>Nessuno.</p>
+									
+								</dd>
+
+								<dt>Opinioni e comportamento dell'utente</dt>
+								<dd>
+									
+										<p>Nessuna.</p>
+									
+								</dd>
+							</dl>
+						</section>
+					
+				</div>
+			</section>
+		
+
+	</div>
+
+			
+		</main>
+		
+
+		
+		<footer class="footer container" aria-label="Customer information">
+			<p>Copyright &copy; 2019 Tutti i diritti riservati.</p>
+			<p>
+				<a href="https://github.com/omar-polo/progettazione-siti-web" target="_blank" rel="noopener" accesskey="G">
+					[G] Codice hostato su <i aria-hidden="true" class="fab fa-github" title="GitHub"></i>
+					<span class="sr-only">GitHub</span>
+				</a>
+			</p>
+			<nav class="footer-nav" role="doc-pagelist">
+				<ul class="down-menu" role="group">
+					<li>
+						<a href="info.html" accesskey="i">[I] Info</a>
+					</li>
+					<li>
+						<a href="mappa.html" accesskey="m">[M] Mappa del sito</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+		
+
+		<a id="toTop" href="#content" role="button" title="Torna a inizio pagina" accesskey="t"><i class="fas fa-arrow-circle-up" aria-hidden="true"></i><span class="sr-only">Torna sopra</span></a>
+
+		<script>
+			var data = JSON.parse("[{\"title\":\" Percepibile\",\"metadata\":{\"source\":\"perceivable\"},\"subsections\":[{\"title\":\" Alternative testuali\",\"metadata\":{\"source\":\"text-alternatives\"},\"subsections\":[{\"title\":\" Contenuti non testuali\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"non-text-content\"},\"subsections\":null}]},{\"title\":\" Media temporizzati\",\"metadata\":{\"source\":\"time-based-media\"},\"subsections\":[{\"title\":\" Solo audio e solo video (preregistrati)\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"audio-only-and-video-only-prerecorded\"},\"subsections\":null},{\"title\":\" Sottotitoli (preregistrati)\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"captions-prerecorded\"},\"subsections\":null},{\"title\":\" Audiodescrizione (preregistrato)\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"audio-description-or-media-alternative-prerecorded\"},\"subsections\":null},{\"title\":\" Sottotitoli (in tempo reale)\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"na\",\"source\":\"captions-live\"},\"subsections\":null},{\"title\":\" Audiodescrizione (preregistrata)\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"no\",\"source\":\"audio-description-prerecorded\"},\"subsections\":null},{\"title\":\" Lingua dei segni (preregistrato)\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"na\",\"source\":\"sign-language-prerecorded\"},\"subsections\":null},{\"title\":\" Audiodescrizione estesa (preregistrata)\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"extended-audio-description-prerecorded\"},\"subsections\":null},{\"title\":\" Tipo di media alternativo (preregistrato)\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"media-alternative-prerecorded\"},\"subsections\":null},{\"title\":\" Solo audio (in tempo reale)\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"audio-only-live\"},\"subsections\":null}]},{\"title\":\" Adattabile\",\"metadata\":{\"source\":\"adaptable\"},\"subsections\":[{\"title\":\" Informazioni e correlazioni\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"info-and-relationships\"},\"subsections\":null},{\"title\":\" Sequenza significativa\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"na\",\"source\":\"meaningful-sequence\"},\"subsections\":null},{\"title\":\" Caratteristiche sensoriali\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"sensory-characteristics\"},\"subsections\":null},{\"title\":\" Orientamento\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"orientation\"},\"subsections\":null},{\"title\":\" Identificare lo scopo degli input\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"no\",\"source\":\"identify-input-purpose\"},\"subsections\":null},{\"title\":\" Identificare lo scopo\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"identify-purpose\"},\"subsections\":null}]},{\"title\":\" Distinguibile\",\"metadata\":{\"source\":\"distinguishable\"},\"subsections\":[{\"title\":\" Uso del colore\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"use-of-color\"},\"subsections\":null},{\"title\":\" Controllo del sonoro\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"audio-control\"},\"subsections\":null},{\"title\":\" Contrasto (minimo)\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"no\",\"source\":\"contrast-minimum\"},\"subsections\":null},{\"title\":\" Ridimensionamento del testo\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"resize-text\"},\"subsections\":null},{\"title\":\" Immagini di testo\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"no\",\"source\":\"images-of-text\"},\"subsections\":null},{\"title\":\" Contrasto (avanzato)\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"contrast-enhanced\"},\"subsections\":null},{\"title\":\" Sottofondo sonoro basso o non presente\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"yes\",\"source\":\"low-or-no-background-audio\"},\"subsections\":null},{\"title\":\" Presentazione visiva\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"visual-presentation\"},\"subsections\":null},{\"title\":\" Immagini di testo (senza eccezioni)\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"images-of-text-no-exception\"},\"subsections\":null},{\"title\":\" Ricalcolo del flusso\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"reflow\"},\"subsections\":null},{\"title\":\" Contrasto in contenuti non testuali\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"non-text-contrast\"},\"subsections\":null},{\"title\":\" Spaziatura del testo\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"no\",\"source\":\"text-spacing\"},\"subsections\":null},{\"title\":\" Contenuto con Hover o Focus\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"content-on-hover-or-focus\"},\"subsections\":null}]}]},{\"title\":\" Utilizzabile\",\"metadata\":{\"source\":\"operable\"},\"subsections\":[{\"title\":\" Accessibile da tastiera\",\"metadata\":{\"source\":\"keyboard-accessible\"},\"subsections\":[{\"title\":\" Tastiera\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"keyboard\"},\"subsections\":null},{\"title\":\" Nessun impedimento all'uso della tastiera\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"no-keyboard-trap\"},\"subsections\":null},{\"title\":\" Tastiera (nessuna eccezione)\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"keyboard-no-exception\"},\"subsections\":null},{\"title\":\" Tasti di scelta rapida\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"character-key-shortcuts\"},\"subsections\":null}]},{\"title\":\" Adeguata disponibilità di tempo\",\"metadata\":{\"source\":\"enough-time\"},\"subsections\":[{\"title\":\" Regolazione tempi di esecuzione\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"timing-adjustable\"},\"subsections\":null},{\"title\":\" Pausa, stop, nascondi\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"pause-stop-hide\"},\"subsections\":null},{\"title\":\" Nessun tempo di esecuzione\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"no-timing\"},\"subsections\":null},{\"title\":\" Interruzioni\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"interruptions\"},\"subsections\":null},{\"title\":\" Riautenticazione\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"yes\",\"source\":\"re-authenticating\"},\"subsections\":null},{\"title\":\" Termine del tempo\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"yes\",\"source\":\"timeouts\"},\"subsections\":null}]},{\"title\":\" Convulsioni e reazioni fisiche\",\"metadata\":{\"source\":\"seizures-and-physical-reactions\"},\"subsections\":[{\"title\":\" Tre lampeggiamenti o inferiore alla soglia\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"three-flashes-or-below-threshold\"},\"subsections\":null},{\"title\":\" Tre lampeggiamenti\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"yes\",\"source\":\"three-flashes\"},\"subsections\":null},{\"title\":\" Animazione da interazioni\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"animation-from-interactions\"},\"subsections\":null}]},{\"title\":\" Navigabile\",\"metadata\":{\"source\":\"navigable\"},\"subsections\":[{\"title\":\" Salto di blocchi\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"bypass-blocks\"},\"subsections\":null},{\"title\":\" Titolazione della pagina\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"page-titled\"},\"subsections\":null},{\"title\":\" Ordine del focus\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"focus-order\"},\"subsections\":null},{\"title\":\" Scopo del collegamento\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"link-purpose-in-context\"},\"subsections\":null},{\"title\":\" Differenti modalità\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"multiple-ways\"},\"subsections\":null},{\"title\":\" Intestazioni ed etichette\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"headings-and-labels\"},\"subsections\":null},{\"title\":\" Focus visibile\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"focus-visible\"},\"subsections\":null},{\"title\":\" Posizione\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"yes\",\"source\":\"location\"},\"subsections\":null},{\"title\":\" Scopo del collegamento (solo collegamento)\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"link-purpose-link-only\"},\"subsections\":null},{\"title\":\" Intestazioni di sezione\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"yes\",\"source\":\"section-headings\"},\"subsections\":null}]},{\"title\":\" Modalità di input\",\"metadata\":{\"source\":\"input-modalities\"},\"subsections\":[{\"title\":\" Movimenti del puntatore\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"pointer-gestures\"},\"subsections\":null},{\"title\":\" Cancellazione delle azioni del puntatore\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"pointer-cancellation\"},\"subsections\":null},{\"title\":\" Etichetta nel nome\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"label-in-name\"},\"subsections\":null},{\"title\":\" Azionamento da movimento\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"motion-actuation\"},\"subsections\":null},{\"title\":\" Dimensione dell'obbiettivo\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"target-size\"},\"subsections\":null},{\"title\":\" Meccanismi di input simultanei\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"yes\",\"source\":\"concurrent-input-mechanisms\"},\"subsections\":null}]}]},{\"title\":\" Comprensibile\",\"metadata\":{\"source\":\"understandable\"},\"subsections\":[{\"title\":\" Leggibile\",\"metadata\":{\"source\":\"readable\"},\"subsections\":[{\"title\":\" Lingua della pagina\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"language-of-page\"},\"subsections\":null},{\"title\":\" Parti in lingua\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"no\",\"source\":\"language-of-parts\"},\"subsections\":null},{\"title\":\" Parole inusuali\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"unusual-words\"},\"subsections\":null},{\"title\":\" Abbreviazioni\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"abbreviations\"},\"subsections\":null},{\"title\":\" Livello di lettura\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"na\",\"source\":\"reading-level\"},\"subsections\":null},{\"title\":\" Pronuncia\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"na\",\"source\":\"pronunciation\"},\"subsections\":null}]},{\"title\":\" Prevedibile\",\"metadata\":{\"source\":\"predictable\"},\"subsections\":[{\"title\":\" Al Focus\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"on-focus\"},\"subsections\":null},{\"title\":\" All'input\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"yes\",\"source\":\"on-input\"},\"subsections\":null},{\"title\":\" Navigazione Coerente\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"consistent-navigation\"},\"subsections\":null},{\"title\":\" Identificazione coerente\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"yes\",\"source\":\"consistent-identification\"},\"subsections\":null},{\"title\":\" Cambiamenti su richiesta\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"no\",\"source\":\"change-on-request\"},\"subsections\":null}]},{\"title\":\" Assistenza nell'inserimento\",\"metadata\":{\"source\":\"input-assistance\"},\"subsections\":[{\"title\":\" Identificazione di errori\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"error-identification\"},\"subsections\":null},{\"title\":\" Etichette o istruzioni\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"labels-or-instructions\"},\"subsections\":null},{\"title\":\" Suggerimenti per gli errori\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"no\",\"source\":\"error-suggestion\"},\"subsections\":null},{\"title\":\" Prevenzione degli errori\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"na\",\"source\":\"error-prevention-legal-financial-data\"},\"subsections\":null},{\"title\":\" Aiuto\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"yes\",\"source\":\"help\"},\"subsections\":null},{\"title\":\" Prevenzione degli errori (tutti)\",\"metadata\":{\"livello\":\"AAA\",\"outcome\":\"yes\",\"source\":\"error-prevention-all\"},\"subsections\":null}]}]},{\"title\":\" Robusto\",\"metadata\":{\"source\":\"robust\"},\"subsections\":[{\"title\":\" Compatibile\",\"metadata\":{\"source\":\"compatible\"},\"subsections\":[{\"title\":\" Analisi sintattica (parsing)\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"parsing\"},\"subsections\":null},{\"title\":\" Nome, ruolo, valore\",\"metadata\":{\"livello\":\"A\",\"outcome\":\"no\",\"source\":\"name-role-value\"},\"subsections\":null},{\"title\":\" Messaggi di stato\",\"metadata\":{\"livello\":\"AA\",\"outcome\":\"no\",\"source\":\"status-messages\"},\"subsections\":null}]}]}]");
+		</script>
+		<script src="js/app.js"></script>
+		<script src="js/highlight.pack.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+	</body>
+</html>
